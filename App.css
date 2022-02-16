@@ -1,0 +1,331 @@
+.head {
+  display: flex;
+}
+
+input[type=text2] {
+  margin-left: 400px;
+  margin-top: 50px;
+  color: white;
+  height: 20px;
+  background-color: blue;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button {
+  margin-left: 5px;
+  background-color: lightblue;
+  font-weight: bold;
+  height: 26px;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+
+input[type=text1] {
+  margin-left: 400px;
+  margin-top: 50px;
+  color: white;
+  background-color: green;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button[type=enter]{
+  margin-left: 5px;
+  background-color: lightgreen;
+  font-weight: bold;
+  height: 26px;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+
+input[type=text2]::placeholder {
+  color: white;
+}
+
+input[type=text1]::placeholder {
+  color: white;
+}
+
+.container {
+  width:59%;
+  background-color: lightblue;
+  height: 770px;
+  margin-left: 300px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 5px solid gray;
+}
+
+.container1 {
+  width:41.85%;
+  background-color: lightgreen;
+  height: 770px;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+  border-radius: 10px;
+  border: 5px solid gray;
+}
+
+.container p {
+  margin: 0;
+  display: inline-flex
+} 
+.container1 p {
+  margin: 0;
+  display: inline-flex
+} 
+
+.container .header {
+  margin-top: -32px;
+  width: 445px;
+  height: 150px;
+  border-radius: 6px;
+  background: blue;
+}
+
+.container1 .header {
+  margin-top: -32px;
+  width: 440px;
+  height: 150px;
+  border-radius: 6px;
+  background: green;
+}
+
+.container .header h1 {
+  margin-left: 25px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.container1 .header h1 {
+  margin-left: 25px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.container .header p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 185px;
+  margin-top: 35px;
+  font-weight: bold;
+
+}
+
+.container1 .header p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 185px;
+  margin-top: 35px;
+  font-weight: bold;
+
+}
+
+.container .body {
+  height: 525px;
+  width: 440px;
+  background: lightblue;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container1 .body {
+  height: 525px;
+  width: 440px;
+  background: lightgreen;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container .body::-webkit-scrollbar {
+  display: none;
+}
+
+.container .body .message {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.container .body .message1 {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+}
+
+.container .body .message .message-content {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 220px;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.container .body .message1 .message-content {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 220px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.container1 .body::-webkit-scrollbar {
+  display: none;
+}
+.container1 .body .message {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.container1 .body .message1 {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+}
+
+.container1 .body .message .message-content1 {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 220px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.container1 .body .message1 .message-content1 {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 220px;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.container .footer input {
+  width: 78%;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.container1 .footer input {
+  width: 78%;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.container .footer button {
+    height: 35px;
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container1 .footer button {
+    height: 35px;
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.container .footer button:hover {
+  color: black;
+}
+
+.container1 .footer button:hover {
+  color: black;
+}
+
+.message-det {
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  margin-top: 3px;
+}
+
+.message-det1 {
+  justify-content: flex-start;
+  font-size: 0.75rem;
+  margin-bottom: 3px;
+}
+
+.message-det2 {
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  margin-top: 3px;
+}
+.message-det3 {
+  justify-content: flex-start;
+  font-size: 0.75rem;
+  margin-bottom: 3px;
+}
+
+.container .body .message .message-det {
+  display: flex;
+  font-size: 12px;
+}
+
+.container .body .message .message-det2 {
+  display: flex;
+  font-size: 12px;
+}
